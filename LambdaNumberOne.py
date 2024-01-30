@@ -10,7 +10,7 @@ def lambda_handler(event, context):
     }
     
     response = lambdaClient.invoke(
-        FunctionName='arn:aws:lambda:ap-south-1:539499389206:function:Lambdanumbertwo',
+        FunctionName='ARN',
         InvocationType='RequestResponse',
         Payload=json.dumps(input)
         )
